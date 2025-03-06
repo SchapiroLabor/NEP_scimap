@@ -25,14 +25,14 @@ UPDATE PATH
 
 `/notebooks`:
 - `/MI_data`: 
-        - `/COZI_scimap_MI_data.ipynb`: This script runs COZI on the MI data using a Delaunay triangulation as neighborhood definition.  
-        - `/SEA_scimap_MI_data.ipynb`: This script runs SEA on the MI data using a Delaunay triangulation as neighborhood definition.  
-        - `/scimap_MI_data.ipynb`: This script runs scimap on the MI data using a Delaunay triangulation as neighborhood definition.  
-        - `/region_ct_abundances_MI_data.ipynb`: This script generates the cell type abundance Figures of the MI dataset (Figure 4cd, Appendix Figure)  
+    - `/COZI_scimap_MI_data.ipynb`: This script runs COZI on the MI data using a Delaunay triangulation as neighborhood definition.  
+    - `/SEA_scimap_MI_data.ipynb`: This script runs SEA on the MI data using a Delaunay triangulation as neighborhood definition.  
+    - `/scimap_MI_data.ipynb`: This script runs scimap on the MI data using a Delaunay triangulation as neighborhood definition.  
+    - `/region_ct_abundances_MI_data.ipynb`: This script generates the cell type abundance Figures of the MI dataset (Figure 4cd, Appendix Figure)  
 - `/simulated_data`: 
-        - `/COZI_scimap_simulated_data.ipynb`: This script runs COZI on the simulated data (asymmetric or symmetric) using a Delaunay triangulation as neighborhood definition.  
-        - `/SEA_scimap_simulated_data.ipynb`: This script runs SEA on the simulated data (asymmetric or symmetric) using a Delaunay triangulation as neighborhood definition.  
-        - `/scimap_simulated_data.ipynb`: This script runs scimap on the simulated data (asymmetric or symmetric) using a Delaunay triangulation as neighborhood definition. The delaunay neighborhood definition was added to the spatial_interaction.py script in `/spatial_interaction_delaunay.py` and is monkey patched in the script.  
+    - `/COZI_scimap_simulated_data.ipynb`: This script runs COZI on the simulated data (asymmetric or symmetric) using a Delaunay triangulation as neighborhood definition.  
+    - `/SEA_scimap_simulated_data.ipynb`: This script runs SEA on the simulated data (asymmetric or symmetric) using a Delaunay triangulation as neighborhood definition.  
+    - `/scimap_simulated_data.ipynb`: This script runs scimap on the simulated data (asymmetric or symmetric) using a Delaunay triangulation as neighborhood definition. The delaunay neighborhood definition was added to the spatial_interaction.py script in `/spatial_interaction_delaunay.py` and is monkey patched in the script.  
 
 `/scripts`:
 - `/spatial_interaction_delaunay.py`: This scripts provides an adapted version of the spatial_interaction.py script in scimap. It includes delaunay graph neighborhood definition and is called from `/scimap_simulated_data.ipynb`.  
