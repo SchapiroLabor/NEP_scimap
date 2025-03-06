@@ -4,8 +4,8 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - jupyter
+  - jupyter=1.1.1
   - pip
   - pip:
       - git+https://github.com/chiarasch/scimap.git
-      - ipykernel
+      - ipykernel=6.29.5
