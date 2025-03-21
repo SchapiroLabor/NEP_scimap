@@ -19,7 +19,7 @@ Simulated .csv data with x, y, and ct annotation columns were used. The asymmetr
 
 ### Myocardial infarction (MI) data
 
-UPDATE PATH
+Sequential Immunofluorescence data was accessed via Synapse (project SynID : syn51449054): https://www.synapse.org/Synapse:syn51449054. The dataframe with phenotypes was accessed within the project at:  https://www.synapse.org/Synapse:syn65487454.
 
 ## Scripts
 
