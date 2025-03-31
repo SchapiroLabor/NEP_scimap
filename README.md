@@ -14,7 +14,7 @@ For running COZI or SEA, we created a conda environment with dependencies specif
 
 ## Tutorial COZI
 
-We created a tutorial notebook with a subset of the simulated data in '/tutorial' to get you started with your own analysis.
+We created a tutorial notebook with a subset of the simulated data in `/tutorial` to get you started with your own analysis.
 
 ## Data
 
