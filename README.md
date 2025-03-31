@@ -7,10 +7,14 @@ Scimap is a versatile spatial analysis suite and offers a spatial interaction fu
 ## Installation
 
 For running scimap, we created a conda environment with dependencies specified in 
-`/envs/scimap_env.yml`
+`/envs/env_scimap.yml`
 
 For running COZI or SEA, we created a conda environment with dependencies specified in 
-`/envs/COZI_SEA_env.yml`
+`/envs/env_cozi_sea.yml`
+
+## Tutorial COZI
+
+We created a tutorial notebook with a subset of the simulated data in '/tutorial' to get you started with your own analysis.
 
 ## Data
 
@@ -36,3 +40,7 @@ Sequential Immunofluorescence data was accessed via Synapse (project SynID : syn
 
 `/scripts`:
 - `/spatial_interaction_delaunay.py`: This scripts provides an adapted version of the spatial_interaction.py script in scimap. It includes delaunay graph neighborhood definition and is called from `/scimap_simulated_data.ipynb`.  
+
+`/tutorial`:
+- `/COZI_tutorial.ipynb`: This notebook provides a short tutorial on how to run COZI based on the spatial_interaction function of scimap.  
+- `/tutorial_data`: This folder contains 9 .csv files of the simulated cohort (see IST data) with a random, weak and strong self-interaction of cell type 0.   
