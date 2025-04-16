@@ -1,6 +1,6 @@
 # COZI, SEA and scimap analysis for NEP methods comparison
 
-Scimap is a versatile spatial analysis suite and offers a spatial interaction function to infer statistically enriched neighbor preferences (NEP). Scimap outputs scaled normalized interactions as NEP scores and p-values. We forked the scimap repo and adapted the framework to output a z-score and total count normalization (spatial enrichment analysis (SEA)) or a z-score with conditional count normailzation (COZI) here: https://github.com/chiarasch/scimap. In this repository, we analyse simulated and MI data with scimap, SEA and COZI for the manuscript Schiller et al. (2025) for NEP method comparison here: https://github.com/SchapiroLabor/NEP_comparison
+Scimap is a versatile spatial analysis suite and offers a spatial interaction function to infer statistically enriched neighbor preferences (NEP). Scimap outputs scaled normalized interactions as NEP scores and p-values. We forked the scimap repo and adapted the framework to output a z-score and total count normalization (spatial enrichment analysis (SEA)) or a z-score with conditional count normailzation (COZI) here: https://github.com/SchapiroLabor/scimap_COZI. In this repository, we analyse simulated and MI data with scimap, SEA and COZI for the manuscript Schiller et al. (2025) for NEP method comparison here: https://github.com/SchapiroLabor/NEP_comparison
 
 # Usage
 
