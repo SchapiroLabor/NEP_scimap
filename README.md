@@ -45,4 +45,6 @@ Sequential Immunofluorescence data was accessed via Synapse (project SynID : syn
 - `/COZI_tutorial.ipynb`: This notebook provides a short tutorial on how to run COZI based on the spatial_interaction function of scimap.  
 - `/tutorial_data`: This folder contains 9 .csv files of the simulated cohort (see IST data) with a random, weak and strong self-interaction of cell type 0.
 
-* Run on an Apple Silicon M1. Installation works on Windows 11, Ubuntu 22.04, Mac Sonoma 14.2.1. 
+
+
+*Run on an Apple Silicon M1. Installation works on Windows 11, Ubuntu 22.04, Mac Sonoma 14.2.1. 
