@@ -19,7 +19,7 @@ We created a tutorial notebook with a subset of the simulated data in `/tutorial
 ## Data
 
 ### In silico tissue (IST) data
-Simulated .csv data with x, y, and ct annotation columns were used. The asymmetric and symmetric in silico tissue (IST) datasets were generated as described here: https://github.com/SchapiroLabor/NEP_IST_generation. 
+Simulated .csv data with x, y, and ct annotation columns were used. The asymmetric and symmetric in silico tissue (IST) datasets can be accessed here https://github.com/SchapiroLabor/NEP_comparison/simulated_data and can be reproduced here: https://github.com/SchapiroLabor/NEP_IST_generation.
 
 ### Myocardial infarction (MI) data
 
