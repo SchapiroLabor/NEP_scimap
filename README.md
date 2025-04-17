@@ -10,7 +10,7 @@ For running scimap, we created a conda environment with dependencies specified i
 `/envs/env_scimap.yml`
 
 For running COZI or SEA, we created a conda environment with dependencies specified in 
-`/envs/env_cozi_sea.yml`. Installing COZI in a conda environment and importing it in Python each take less than one minute. Running COZI with 300 permutations on a sample of 2,000 cells takes under 30 seconds.
+`/envs/env_cozi_sea.yml`. Installing COZI in a conda environment and importing it in Python each take less than one minute. Running COZI with 300 permutations on a sample of 2,000 cells takes under 30 seconds*.
 
 ## Tutorial COZI
 
@@ -43,4 +43,6 @@ Sequential Immunofluorescence data was accessed via Synapse (project SynID : syn
 
 `/tutorial`:
 - `/COZI_tutorial.ipynb`: This notebook provides a short tutorial on how to run COZI based on the spatial_interaction function of scimap.  
-- `/tutorial_data`: This folder contains 9 .csv files of the simulated cohort (see IST data) with a random, weak and strong self-interaction of cell type 0.   
+- `/tutorial_data`: This folder contains 9 .csv files of the simulated cohort (see IST data) with a random, weak and strong self-interaction of cell type 0.
+
+* Run on an Apple Silicon M1. Installation works on Windows, Linux, Mac. 
