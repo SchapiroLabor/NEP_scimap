@@ -10,7 +10,7 @@ For running scimap, we created a conda environment with dependencies specified i
 `/envs/env_scimap.yml`
 
 For running COZI or SEA, we created a conda environment with dependencies specified in 
-`/envs/env_cozi_sea.yml`
+`/envs/env_cozi_sea.yml`. Installing COZI in a conda environment and importing it in Python each take less than one minute. Running COZI with 300 permutations on a sample of 2,000 cells takes under 30 seconds.
 
 ## Tutorial COZI
 
