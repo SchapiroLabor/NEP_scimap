@@ -49,10 +49,11 @@ TNBC data can be found at https://www.angelolab.com/mibi-data. We used the proce
 `/notebooks`:
 - `/MI_data`: 
     - `/COZI_scimap_MI_data.ipynb`: This script runs COZI on the MI data using a knn (k=5) as neighborhood definition (Figure 6).  
-    - `/COZI_scimap_MI_data.ipynb`: This script runs COZI on the MI data using a various neighborhood definitions and correlates results. It also correlates CCR and cell typ (Supplementary Figure 9).  
+    - `/COZI_scimap_MI_data_Supplementary_fig_10_11.ipynb`: This script runs COZI on the MI data using a various neighborhood definitions and correlates results. It also correlates CCR and cell typ (Supplementary Figure 10 nd 11).  
     - `/SEA_scimap_MI_data.ipynb`: This script runs SEA on the MI data using a knn (k=5) as neighborhood definition (Figure 6).  
     - `/scimap_MI_data.ipynb`: This script runs scimap on the MI data using a knn (k=5) as neighborhood definition (Figure 6).  
-    - `/region_ct_abundances_MI_data.ipynb`: This script generates the cell type abundance Figures of the MI dataset (Figure 4cd, Supplementary Figure 7b)  
+    - `/region_ct_abundances_MI_data.ipynb`: This script generates the cell type abundance Figures of the MI dataset (Figure 4cd, Supplementary Figure 7b)
+    - `/COZI_scimap_MI_data_Supplementary_fig_12.ipynb`: This script runs COZI on the MI data using a various neighborhood definitions and plots COZI scores of specific interactions (Supplementary Figure 12)
 - `/simulated_data`: 
     - `/COZI_scimap_simulated_data_IST.ipynb`: This script runs COZI on the IST simulated data using a Delaunay triangulation as neighborhood definition (Figure 2 and 3). 
     - `/COZI_scimap_simulated_data_IST.ipynb`: This script runs COZI on the SpaSim simulated data using a Delaunay triangulation as neighborhood definition (Figure 4).  
